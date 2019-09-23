@@ -5,8 +5,10 @@ m=int(nm_input_array[1])
 sum=n+m
 if sum%2==0:
     print("even")
-else:
+elif sum%2==1:
     print("odd")
+else:
+    print("Input error")
 
 
 
